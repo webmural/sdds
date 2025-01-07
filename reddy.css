@@ -1,0 +1,80 @@
+.ooze *,
+.xxze * {
+  color: inherit;
+  background-color: transparent;
+}
+
+/*
+opensource ooze color
+https://s9a.page/ooze
+https://s9a.org/ooze
+*/
+
+:root {
+  --heat: rgb(250, 50, 150);
+  --jupe: rgb(240, 180, 30);
+  --volt: rgb(240, 240, 30);
+  --lawn: rgb(90, 210, 90);
+  --moss: rgb(120, 210, 210);
+  --wind: rgb(150, 210, 240);
+  --teal: rgb(90, 180, 210);
+  --rain: rgb(90, 180, 270);
+  --pour: rgb(90, 150, 240);
+  --pulp: rgb(180, 90, 240);
+  --pynk: rgb(240, 120, 330); 
+  --punk: rgb(270, 120, 330);
+  --ooze: rgb(210, 210, 210);
+	--xxze: rgb(30, 10, 20);
+	--oooo: var(--ooze);
+	--xxxx: var(--xxze);
+}
+
+.ooze.ooze {
+  --oooo: var(--ooze);
+  --xxxx: var(--xxze);
+  background-color: var(--ooze);
+  color: var(--xxze);
+}
+
+.xxze.xxze {
+  --oooo: var(--xxze);
+  --xxxx: var(--ooze);
+  background-color: var(--xxze);
+  color: var(--ooze);
+}
+
+::selection {
+	background: var(--xxxx);
+  color: var(--oooo);
+}
+
+.heat { --ooze: var(--heat) }
+.jupe { --ooze: var(--jupe) }
+.volt { --ooze: var(--volt) }
+.lawn { --ooze: var(--lawn) }
+.moss { --ooze: var(--moss) }
+.wind { --ooze: var(--wind) }
+.teal { --ooze: var(--teal) }
+.rain { --ooze: var(--rain) }
+.pour { --ooze: var(--pour) }
+.pulp { --ooze: var(--pulp) }
+.pynk { --ooze: var(--pynk) }
+.punk { --ooze: var(--punk) }
+
+.spectra {
+  background-image: linear-gradient(
+    .75turn,
+    var(--pulp),
+    var(--pynk),
+    var(--punk),
+    var(--heat),
+    var(--jupe),
+    var(--volt),
+    var(--lawn),
+    var(--moss),
+    var(--wind),
+    var(--teal),
+    var(--rain),
+    var(--pour)
+  );
+}
