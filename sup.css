@@ -34,9 +34,9 @@ body {
 }
 
 @media (orientation: portrait) {
-  :target header,
-  :target footer,
-  :target p {
+  header,
+  footer,
+  p {
     writing-mode: vertical-lr;
   }
 }
