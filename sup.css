@@ -38,6 +38,12 @@ code {
   font-size: 1.618em;
 }
 
+header,
+footer,
+p {
+  margin: 1.618em auto;
+}
+
 @media (orientation: portrait) {
   header,
   footer,
