@@ -79,6 +79,16 @@ https://s9a.org/ooze
   );
 }
 
+.dns {
+  background-image: linear-gradient(
+    1turn,
+    var(--heat),
+    var(--pulp),
+    var(--ooze),
+    var(--rain)
+  );
+}
+
 :focus-within {
   filter: hue-rotate(-3deg);
 }

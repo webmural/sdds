@@ -10,11 +10,16 @@ body {
   flex-flow: column;
   margin: auto;
   padding: 2rem;
+  overflow-wrap: anywhere;
 }
 
-[href^="#"] {
+a[class] {
   font-weight: bold;
-  padding-inline: 1ch;
+  padding: 1ch;
+}
+
+code {
+  font: unset;
 }
 
 .plus { 
@@ -31,6 +36,12 @@ body {
 
 :target sup {
   font-size: 1.618em;
+}
+
+header,
+footer,
+p {
+  margin: 1.618em auto;
 }
 
 @media (orientation: portrait) {
