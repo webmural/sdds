@@ -78,3 +78,7 @@ https://s9a.org/ooze
     var(--pour)
   );
 }
+
+:focus-within {
+  filter: hue-rotate(-3deg);
+}
